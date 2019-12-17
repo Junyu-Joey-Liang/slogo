@@ -1,0 +1,5 @@
+to caracol [ :nlados ] [ make :lado 1 repeat :nlados [ make :lado + :lado 1 fd :lado rt 80 ] ]
+make :nlados 0.0
+make :lado 1.0
+make :x 260.0
+make :repcount 8.0
